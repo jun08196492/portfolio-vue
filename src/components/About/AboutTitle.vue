@@ -1,0 +1,13 @@
+<template>
+  <v-app>
+    <v-row>
+      <v-col>
+        <v-img
+          src="@/assets/About/AboutTitle/factory-1024x525.png"
+          class="img"
+          height="800"
+        />
+      </v-col>
+    </v-row>
+  </v-app>
+</template>

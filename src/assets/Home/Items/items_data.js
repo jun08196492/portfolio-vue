@@ -1,0 +1,56 @@
+const bestItem = [
+  {id:0, name:'원판접시', price:'100,000', img:require('@/assets/Home/Items/BestItem/원판접시.jpg')},
+  {id:1, name:'긴사각접시', price:'78,000', img:require('@/assets/Home/Items/BestItem/긴사각접시.jpg')},
+  {id:2, name:'대접시', price:'50,000', img:require('@/assets/Home/Items/BestItem/대접시.jpg')},
+  {id:3, name:'딥두루두루', price:'45,000', img:require('@/assets/Home/Items/BestItem/딥두루두루.jpg')},
+  {id:4, name:'라이스볼', price:'30,000', img:require('@/assets/Home/Items/BestItem/라이스볼.jpg')},
+  {id:5, name:'마스크볼', price:'29,000', img:require('@/assets/Home/Items/BestItem/마스크볼.jpg')},
+  {id:6, name:'사가기볼', price:'70,000', img:require('@/assets/Home/Items/BestItem/사가기볼.jpg')},
+  {id:7, name:'수저받침대', price:'72,000', img:require('@/assets/Home/Items/BestItem/수저받침대.jpg')},
+  {id:8, name:'술잔', price:'32,000', img:require('@/assets/Home/Items/BestItem/술잔.jpg')},
+  {id:9, name:'원턱접시', price:'99,000', img:require('@/assets/Home/Items/BestItem/원턱접시.jpg')},
+  {id:10, name:'윤볼', price:'46,000', img:require('@/assets/Home/Items/BestItem/윤볼.jpg')},
+  {id:11, name:'칭칭볼', price:'19,000', img:require('@/assets/Home/Items/BestItem/칭칭볼.jpg')},
+  {id:12, name:'하프볼', price:'32,000', img:require('@/assets/Home/Items/BestItem/하프볼.jpg')},
+]
+
+const newItem = [
+  {id:0, name:'가로접시', price:'50,000', img:require('@/assets/Home/Items/NewItem/가로접시.jpg')},
+  {id:1, name:'깊은볼', price:'27,000', img:require('@/assets/Home/Items/NewItem/깊은볼.jpg')},
+  {id:2, name:'나즌라이스볼', price:'40,000', img:require('@/assets/Home/Items/NewItem/나즌라이스볼.jpg')},
+  {id:3, name:'너츠볼', price:'35,000', img:require('@/assets/Home/Items/NewItem/너츠볼.jpg')},
+  {id:4, name:'넉넉한볼', price:'129,000', img:require('@/assets/Home/Items/NewItem/넉넉한볼.jpg')},
+  {id:5, name:'대야볼', price:'18,000', img:require('@/assets/Home/Items/NewItem/대야볼.jpg')},
+  {id:6, name:'딥타원접시', price:'42,000', img:require('@/assets/Home/Items/NewItem/딥타원접시.jpg')},
+  {id:7, name:'밥그릇', price:'22,000', img:require('@/assets/Home/Items/NewItem/밥그릇.jpg')},
+  {id:8, name:'보트볼', price:'20,000', img:require('@/assets/Home/Items/NewItem/보트볼.jpg')},
+  {id:9, name:'소스팟', price:'16,000', img:require('@/assets/Home/Items/NewItem/소스팟.jpg')},
+  {id:10, name:'에그볼', price:'15,000', img:require('@/assets/Home/Items/NewItem/에그볼.jpg')},
+  {id:11, name:'저그', price:'25,000', img:require('@/assets/Home/Items/NewItem/저그.jpg')},
+  {id:12, name:'일자찬기', price:'15,000', img:require('@/assets/Home/Items/NewItem/일자찬기.jpg')},
+  {id:13, name:'티잔', price:'33,000', img:require('@/assets/Home/Items/NewItem/티잔.jpg')},
+  {id:14, name:'피쉬접시', price:'55,000', img:require('@/assets/Home/Items/NewItem/피쉬접시.jpg')},
+  {id:15, name:'피크닉볼', price:'69,000', img:require('@/assets/Home/Items/NewItem/피크닉볼.jpg')},
+]
+
+const saleItem = [
+  {id:0, name:'Rigen볼', price:'39000', sale:'35100', img:require('@/assets/Home/Items/SaleItem/Rigen볼.jpg')},
+  {id:1, name:'Rigen샐러드볼', price:'29000', sale:'26100', img:require('@/assets/Home/Items/SaleItem/Rigen샐러드볼.jpg')},
+  {id:2, name:'Rigen슈가볼', price:'20000', sale:'18000', img:require('@/assets/Home/Items/SaleItem/Rigen슈가볼.jpg')},
+  {id:3, name:'Rigen크리머', price:'15000', sale:'13500', img:require('@/assets/Home/Items/SaleItem/Rigen크리머.jpg')},
+  {id:4, name:'Vipp볼', price:'29000', sale:'26100', img:require('@/assets/Home/Items/SaleItem/Vipp볼.jpg')},
+  {id:5, name:'네스트볼', price:'30000', sale:'27000', img:require('@/assets/Home/Items/SaleItem/네스트볼.jpg')},
+  {id:6, name:'라운드플레이트', price:'55000', sale:'49500', img:require('@/assets/Home/Items/SaleItem/라운드플레이트.jpg')},
+  {id:7, name:'바토볼', price:'29000', sale:'26100', img:require('@/assets/Home/Items/SaleItem/바토볼.jpg')},
+  {id:8, name:'베스티토볼', price:'15000', sale:'13500', img:require('@/assets/Home/Items/SaleItem/베스티토볼.jpg')},
+  {id:9, name:'아리타볼', price:'70000', sale:'63000', img:require('@/assets/Home/Items/SaleItem/아리타볼.jpg')},
+  {id:10, name:'아리타티컵', price:'40000', sale:'36000', img:require('@/assets/Home/Items/SaleItem/아리타티컵.jpg')},
+  {id:11, name:'아리타티컵blue', price:'40000', sale:'36000', img:require('@/assets/Home/Items/SaleItem/아리타티컵blue.jpg')},
+  {id:12, name:'에나멜볼', price:'20000', sale:'18000', img:require('@/assets/Home/Items/SaleItem/에나멜볼.jpg')},
+  {id:13, name:'차바트리공기', price:'20000', sale:'18000', img:require('@/assets/Home/Items/SaleItem/차바트리공기.jpg')},
+  {id:14, name:'차바트리국공기', price:'22000', sale:'19800', img:require('@/assets/Home/Items/SaleItem/차바트리국공기.jpg')},
+  {id:15, name:'티크우드볼', price:'25000', sale:'22500', img:require('@/assets/Home/Items/SaleItem/티크우드볼.jpg')},
+  {id:16, name:'티크우드샐러드볼', price:'22000', sale:'19800', img:require('@/assets/Home/Items/SaleItem/티크우드샐러드볼.jpg')},
+
+]
+export {bestItem, newItem, saleItem}
